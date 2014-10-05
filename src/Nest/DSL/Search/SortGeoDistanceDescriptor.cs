@@ -56,7 +56,7 @@ namespace Nest
 			var c = CultureInfo.InvariantCulture;
 			Lat.ThrowIfNull("Lat");
 			Lon.ThrowIfNull("Lon");
-			Self.PinLocation = "{0}, {1}".F(Lat.ToString(c), Lon.ToString(c));
+			Self.PinLocation = "{0}, {1}".F(Lon.ToString(c), Lat.ToString(c));
 			return this;
 		}
 		public SortGeoDistanceDescriptor<T> Unit(GeoUnit unit)

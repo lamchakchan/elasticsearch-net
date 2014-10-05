@@ -20,6 +20,7 @@
 *.ilk
 *.log
 *.nupkg
+*.nuspec
 *.ncrunchsolution
 [Bb]in
 [Dd]ebug/

@@ -193,7 +193,7 @@ namespace Nest.Tests.Unit.Search.Sorting
                   sort: [
 					{
 					  _geo_distance: {
-					   ""origin"": ""40, -70"",
+					   ""origin"": ""-70, 40"",
 						 missing: ""_last"",
 						 mode: ""max"",
 						 order: ""desc"",
